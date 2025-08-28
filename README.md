@@ -41,3 +41,17 @@ python -m ipykernel install --user --name=conenv --display-name "aBeautifulName"
 ## Authors
  - Fakhrul Hassan Bhuiyan [@fbhuiyan2](https://github.com/fbhuiyan2)
  - Alvaro Vazquez Mayagoitia [@alvarovm](https://github.com/alvarovm) alvaro::at:anl.gov
+
+Copyright(c). Argonne UChicago, LLC. 2025.
+
+## Aknowledgements
+This material is based upon work supported by the U.S. Department of Energy, Office of
+Science Energy Earthshot Initiative as part of the Center for Steel Electrification by Elec-
+trosynthesis (C-STEEL) at Argonne National Laboratory under Contract Number DE-AC02-
+06CH11357. We acknowledge the computing resources provided on ‘Improv’ computing
+clusters operated by the Laboratory Computing Resource Center at Argonne National Lab-
+oratory. This research used resources of the Argonne Leadership Computing Facility, which
+is a U.S. Department of Energy Office of Science User Facility operated under contract
+DE-AC02- 06CH11357. A.V.M. and F.H.B. were supported by the Office of Science, U.S.
+Department of Energy, under contract DE-AC02-06CH11357.
+
