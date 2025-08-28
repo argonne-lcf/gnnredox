@@ -1,3 +1,7 @@
+# Graph Neural Network models to predict redox potentials, and Iron(II) complexes redox dataset
+
+---
+
 To run the codes here, first clone the repository and cd inside the repo dir.
 
 Next, create a Python virtual environment or a new Conda environment. Then install the Python packages as shown below.
@@ -34,3 +38,6 @@ If it is a Conda environement, use `conda activate path/to/your/conda_env`
 python -m ipykernel install --user --name=conenv --display-name "aBeautifulName"
 ```
 
+## Authors
+ - Fakhrul Hassan Bhuiyan [@fbhuiyan2](https://github.com/fbhuiyan2)
+ - Alvaro Vazquez Mayagoitia [@alvarovm](https://github.com/alvarovm) alvaro::at:anl.gov
