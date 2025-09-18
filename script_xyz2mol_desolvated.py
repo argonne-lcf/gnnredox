@@ -22,8 +22,8 @@ import subprocess
 
 
 # Set environment variables for xTB
-os.environ["PATH"] += os.pathsep + r"C:\Users\fbhuiyan\xtb-6.7.1\lib"
-os.environ["XTBPATH"] = r"C:\Users\fbhuiyan\xtb-6.7.1\share\xtb"
+os.environ["PATH"] += os.pathsep + r"path\to\xtb-6.7.1\lib"    # newer versions may work
+os.environ["XTBPATH"] = r"path\to\xtb-6.7.1\share\xtb"
 os.environ["OMP_NUM_THREADS"] = "4" 
 
 
@@ -103,10 +103,10 @@ if __name__ == '__main__':
     # however, you will also need to comment out the `y` in this line below when running xyz2mol conversion:
     # <line ~190> data.append({'csd_code': code, 'mol': mol, 'smiles': smiles, 'y': tmqm_redox_df[target].loc[code]})
     
-    tmqm_redox_df = pd.read_csv('./Final_code/Final_data/tmqm_redox_data_full_data.csv')
+    tmqm_redox_df = pd.read_csv('./Data/tmqm_redox_data_full_data.csv')
     target = 'reduction_pot' #'reduction_potential_tpssh_solvent'
 
-    desolvated_df = pd.read_pickle('Data/desolvated_tmqm_all_xyz.pkl')
+    desolvated_df = pd.read_pickle('./Data/desolvated_tmqm_all_xyz.pkl')
     
     
     desolvated_df['max_diff'] = desolvated_df.apply(calculate_max_fe_neighbor_dist_diff, axis=1)
@@ -217,4 +217,4 @@ if __name__ == '__main__':
     
     final_df = pd.DataFrame(data)
     print('Collected mol df rows:', len(final_df))
-    final_df.to_pickle('./Final_code/Final_data/tmc_frm_xyz2mol_desolvated_all_df.pkl')
+    final_df.to_pickle('./Data/tmc_frm_xyz2mol_desolvated_all_df.pkl')
