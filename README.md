@@ -60,7 +60,7 @@ Once all the data files are generated in the `./Data` folder, you can run the ju
  - Fakhrul Hassan Bhuiyan [@fbhuiyan2](https://github.com/fbhuiyan2)
  - Alvaro Vazquez Mayagoitia [@alvarovm](https://github.com/alvarovm) alvaro::at:anl.gov
 
-Copyright(c). Argonne UChicago, LLC. 2025.
+Copyright (c) 2025 Fakhrul Hassan Bhuiyan, Argonne UChicago LLC.
 
 ## Aknowledgements
 This material is based upon work supported by the U.S. Department of Energy, Office of
