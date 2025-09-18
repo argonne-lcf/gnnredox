@@ -30,7 +30,7 @@ if __name__ == '__main__':
     #tmqm_redox_df = pd.read_pickle('Data/df_psi_fe_2024_60atoms2_cleaned.pkl') #('df_psi_fe_2024_50atoms_cleaned.pkl')
     #target = 'reduction_potential_tpssh_solvent'
 
-    tmqm_redox_df = pd.read_csv('./Final_code/Final_data/tmqm_redox_data_full_data.csv')
+    tmqm_redox_df = pd.read_csv('./Data/tmqm_redox_data_full_data.csv')
     target = 'reduction_pot' #'reduction_potential_tpssh_solvent'
     
 
@@ -165,4 +165,4 @@ if __name__ == '__main__':
     
     final_df = pd.DataFrame(data)
     print('collected mol df rows:', len(final_df))
-    final_df.to_pickle('./Final_code/Final_data/tmc_frm_xyz2mol_tmqm_all_df.pkl')
+    final_df.to_pickle('./Data/tmc_frm_xyz2mol_tmqm_all_df.pkl')
